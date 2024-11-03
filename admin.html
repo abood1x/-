@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>لوحة تحكم المشرف</title>
+</head>
+<body>
+    <header>
+        <h1>لوحة تحكم المشرف</h1>
+    </header>
+    <main>
+        <section id="add-poem">
+            <h2>إضافة قصيدة</h2>
+            <input type="text" id="poem-title" placeholder="عنوان القصيدة" required>
+            <textarea id="poem-content" placeholder="نص القصيدة" required></textarea>
+            <button id="add-poem-btn">إضافة القصيدة</button>
+        </section>
+
+        <section id="poems-list">
+            <h2>القصائد الموجودة</h2>
+            <div id="poems-container"></div>
+        </section>
+
+        <section id="add-story">
+            <h2>إضافة قصة</h2>
+            <input type="text" id="story-title" placeholder="عنوان القصة" required>
+            <textarea id="story-content" placeholder="نص القصة" required></textarea>
+            <button id="add-story-btn">إضافة القصة</button>
+        </section>
+
+        <section id="stories-list">
+            <h2>القصص الموجودة</h2>
+            <div id="stories-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>حقوق الطبع والنشر &copy; 2024 منصة الشعر والقصص العربية</p>
+    </footer>
+    <script src="admin.js"></script>
+</body>
+</html>

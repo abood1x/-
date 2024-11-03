@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>تسجيل دخول المشرف</title>
+</head>
+<body>
+    <header>
+        <h1>تسجيل دخول المشرف</h1>
+    </header>
+    <main>
+        <section id="login-section">
+            <input type="text" id="username" placeholder="اسم المستخدم" required>
+            <input type="password" id="password" placeholder="كلمة المرور" required>
+            <button id="login-btn">تسجيل الدخول</button>
+            <p id="login-message" style="color: red;"></p>
+        </section>
+    </main>
+    <footer>
+        <p>حقوق الطبع والنشر &copy; 2024 منصة الشعر والقصص العربية</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
